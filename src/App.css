@@ -2,6 +2,21 @@
   text-align: center;
 }
 
+button {
+  background-color: transparent;
+  padding: 10px 20px;
+  margin: 20px 0;
+  border: 1px solid #5c5c5c;
+  border-radius: 20px;
+  color: white;
+  transition: all .45s ease;
+}
+
+button:hover {
+  background-color: white;
+  color: #5c5c5c;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -26,6 +41,20 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.Couple {
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background-color: rgb(52, 168, 222);
+  border-radius: 50%;
+}
+
+.testflex {
+  display: flex;
 }
 
 @keyframes App-logo-spin {
